@@ -143,10 +143,10 @@ body {
     color: var(--color4);
     text-decoration: none;
     border: 3px solid var(--color2);
-  &:hover {
-    background-color: var(--color4);
-    color: var(--color2);
-    }
+    &:hover {
+      background-color: var(--color4);
+      color: var(--color2);
+      }
   }
   .icon{
     width: 25px;
@@ -155,17 +155,17 @@ body {
     color: var(--color4);
     text-align: center;
     border-top: 10px solid var(--color3);
-  }
-  footer ul {
-    list-style-type: none;
-    @include boxmodel;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-  }
-  footer a {
-    color: var(--color4);
-    font-size: 2rem;
-    display: block;
-    margin: 0 1rem 3rem 1rem;
+    ul {
+      list-style-type: none;
+      @include boxmodel;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+    a {
+      color: var(--color4);
+      font-size: 2rem;
+      display: block;
+      margin: 0 1rem 3rem 1rem;
+    }
   }

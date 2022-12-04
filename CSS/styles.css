@@ -175,14 +175,12 @@ footer {
   text-align: center;
   border-top: 10px solid var(--color3);
 }
-
 footer ul {
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
-
 footer a {
   color: var(--color4);
   font-size: 2rem;
