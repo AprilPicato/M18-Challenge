@@ -69,12 +69,10 @@ a:hover {
 header {
   border-bottom: 10px solid var(--color3);
 }
-
 header .icon {
   vertical-align: middle;
   display: inline-block;
 }
-
 header .icon:hover {
   color: var(--color3);
 }

@@ -65,13 +65,13 @@ body {
   }
   header {
     border-bottom: 10px solid var(--color3);
-  }
-  header .icon {
-    vertical-align: middle;
-    display: inline-block;
-  }
-  header .icon:hover {
-    color:var(--color3);
+    .icon {
+      vertical-align: middle;
+      display: inline-block;
+      &:hover {
+        color:var(--color3);
+      }
+    }
   }
   /* navbar styling */
   nav ul {
