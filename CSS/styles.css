@@ -60,14 +60,14 @@ img {
 }
 
 a {
-  color: #59331d;
+  color: var(--color2);
 }
 a:hover {
   text-decoration: none;
 }
 
 header {
-  border-bottom: 10px solid #d98555;
+  border-bottom: 10px solid var(--color3);
 }
 
 header .icon {
@@ -76,7 +76,7 @@ header .icon {
 }
 
 header .icon:hover {
-  color: #d98555;
+  color: var(--color3);
 }
 
 /* navbar styling */
@@ -110,7 +110,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #d98555;
+  color: var(--color3);
 }
 
 /* establishes a white background */
@@ -136,7 +136,7 @@ article {
 figure {
   margin: 3rem 0 0 0;
   flex-basis: 25%;
-  background-color: #59331d;
+  background-color: var(--color2);
   border-radius: 10px;
 }
 
@@ -146,25 +146,25 @@ figure img {
 }
 
 figcaption {
-  color: #f2f2f2;
+  color: var(--color4);
   padding: 0.5rem;
   text-align: center;
 }
 
 .button {
   display: inline-block;
-  background-color: #59331D;
+  background-color: var(--color2);
   border-radius: 10px;
   padding: 0.5rem 1rem;
   margin: 0;
-  color: #f2f2f2;
+  color: var(--color4);
   text-decoration: none;
-  border: 3px solid #59331d;
+  border: 3px solid var(--color2);
 }
 
 .button:hover {
-  background-color: #f2f2f2;
-  color: #59331d;
+  background-color: var(--color4);
+  color: var(--color2);
 }
 
 .icon {
@@ -172,9 +172,9 @@ figcaption {
 }
 
 footer {
-  color: #f2f2f2;
+  color: var(--color4);
   text-align: center;
-  border-top: 10px solid #d98555;
+  border-top: 10px solid var(--color3);
 }
 
 footer ul {
@@ -185,7 +185,7 @@ footer ul {
 }
 
 footer a {
-  color: #f2f2f2;
+  color: var(--color4);
   font-size: 2rem;
   display: block;
   margin: 0 1rem 3rem 1rem;
