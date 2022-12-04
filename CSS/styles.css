@@ -28,11 +28,9 @@
 /* orange */
 /*ccream */
 body {
+  background-color: #082B59;
   font-family: "Lato", sans-serif;
   line-height: 2;
-}
-body .sass {
-  background-color: #082B59;
 }
 
 h1, h2, h3 {
@@ -58,6 +56,9 @@ img {
   text-align: center;
 }
 
+a {
+  color: #59331d;
+}
 a:hover {
   text-decoration: none;
 }
@@ -69,6 +70,10 @@ header {
 header .icon {
   vertical-align: middle;
   display: inline-block;
+}
+
+header .icon:hover {
+  color: #d98555;
 }
 
 /* navbar styling */
@@ -101,6 +106,10 @@ nav a {
   display: block;
 }
 
+nav a:hover {
+  color: #d98555;
+}
+
 /* establishes a white background */
 .main-bkgd {
   background: #ffffff url(https://assets.codepen.io/6306176/gulp-bean-bkgd.jpg) repeat-x bottom;
@@ -124,10 +133,8 @@ article {
 figure {
   margin: 3rem 0 0 0;
   flex-basis: 25%;
+  background-color: #59331d;
   border-radius: 10px;
-}
-figure .sass {
-  background-color: #59331D;
 }
 
 figure img {
@@ -136,31 +143,37 @@ figure img {
 }
 
 figcaption {
+  color: #f2f2f2;
   padding: 0.5rem;
   text-align: center;
 }
+
 .button {
   display: inline-block;
+  background-color: #59331D;
   border-radius: 10px;
   padding: 0.5rem 1rem;
   margin: 0;
+  color: #f2f2f2;
   text-decoration: none;
   border: 3px solid #59331d;
 }
-.button .sass {
-  background-color: #59331D;
-}
-.button:hover .sass {
+
+.button:hover {
   background-color: #f2f2f2;
+  color: #59331d;
 }
+
 .icon {
   width: 25px;
 }
 
 footer {
+  color: #f2f2f2;
   text-align: center;
   border-top: 10px solid #d98555;
 }
+
 footer ul {
   list-style-type: none;
   display: flex;
@@ -169,6 +182,7 @@ footer ul {
 }
 
 footer a {
+  color: #f2f2f2;
   font-size: 2rem;
   display: block;
   margin: 0 1rem 3rem 1rem;
