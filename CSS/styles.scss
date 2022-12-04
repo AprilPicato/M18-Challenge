@@ -51,9 +51,9 @@ body {
   }
   a {
     color: #59331d;
-  }
-  a:hover {
-    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      }
   }
   header {
     border-bottom: 10px solid #d98555;
