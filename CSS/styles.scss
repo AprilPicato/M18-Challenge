@@ -19,10 +19,15 @@
     column-gap: 1rem;
   }
 }
+
+@mixin boxmodel {
+  $padding: 0;
+  $margin: 0;
+}
+
 body {
     background-color: #082B59;
-    margin: 0;
-    padding: 0;
+    @include boxmodel;
     font-family: 'Lato', sans-serif;
     line-height: 2;
   }
@@ -62,8 +67,7 @@ body {
   }
   /* navbar styling */
   nav ul {
-    padding: 0;
-    margin: 0;
+    @include boxmodel;
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
@@ -146,8 +150,7 @@ body {
   }
   footer ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    @include boxmodel;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
