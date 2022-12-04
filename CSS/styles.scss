@@ -20,6 +20,12 @@
   }
 }
 
+/* color palette */
+$color1: #082B59; /* blue*/
+$color2: #59331D; /* brown */
+$color3: #D98555; /* orange */
+$color4: #f2f2f2; /*ccream */
+
 @mixin boxmodel {
   $padding: 0;
   $margin: 0;
