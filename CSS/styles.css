@@ -23,12 +23,15 @@
   }
 }
 /* color palette */
-/* blue*/
-/* brown */
-/* orange */
-/*ccream */
+:root {
+  --color1: #082B59; /* blue*/
+  --color2: #59331D; /* brown */
+  --color3: #D98555; /* orange */
+  --color4: #f2f2f2; /*cream */
+}
+
 body {
-  background-color: #082B59;
+  background-color: var(--color1);
   font-family: "Lato", sans-serif;
   line-height: 2;
 }
