@@ -52,10 +52,10 @@ body {
   }
   .card {
     text-align: center;
-  }
-  .card img {
-    border-radius: 2rem;
-    text-align: center;
+    img {
+      border-radius: 2rem;
+      text-align: center;
+    }
   }
   a {
     color: var(--color2);
