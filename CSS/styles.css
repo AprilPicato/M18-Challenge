@@ -161,7 +161,6 @@ figcaption {
   text-decoration: none;
   border: 3px solid var(--color2);
 }
-
 .button:hover {
   background-color: var(--color4);
   color: var(--color2);

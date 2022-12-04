@@ -143,10 +143,10 @@ body {
     color: var(--color4);
     text-decoration: none;
     border: 3px solid var(--color2);
-  }
-  .button:hover {
+  &:hover {
     background-color: var(--color4);
     color: var(--color2);
+    }
   }
   .icon{
     width: 25px;
